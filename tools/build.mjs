@@ -27,9 +27,12 @@ await fs.appendFile(
   path.join(dist, "styles.css"),
   "\n/* Original gallery focal points. */\n" + focalRules + "\n",
 );
-for (const [name, html] of createSite(content)) {
-  await fs.mkdir(path.dirname(path.join(dist, name)), { recursive: true });
-  await fs.writeFile(path.join(dist, name), html);
+for (const language of ["sr", "en"]) {
+  for (const [name, html] of createSite(content, language)) {
+    const output = language === "en" ? path.join("en", name) : name;
+    await fs.mkdir(path.dirname(path.join(dist, output)), { recursive: true });
+    await fs.writeFile(path.join(dist, output), html);
+  }
 }
 const paths = [
   "/",
@@ -43,7 +46,7 @@ const paths = [
 await fs.writeFile(
   path.join(dist, "sitemap.xml"),
   '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' +
-    paths
+    paths.flatMap((p) => [p, `/en${p}`])
       .map((p) => `<url><loc>https://www.nnarcher.com${p}</loc></url>`)
       .join("") +
     "</urlset>",

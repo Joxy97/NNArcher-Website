@@ -165,7 +165,7 @@ const server = http.createServer(async (req, res) => {
       if (stat.isDirectory()) filename = path.join(filename, "index.html");
       await fs.access(filename);
     } catch {
-      filename = path.join(dist, "404.html");
+      filename = path.join(dist, pathname.startsWith("/en/") ? "en/404.html" : "404.html");
       status = 404;
     }
     const stat = await fs.stat(filename);

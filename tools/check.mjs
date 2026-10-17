@@ -2,13 +2,15 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import assert from "node:assert/strict";
 import { validateBooking, formatBooking } from "../src/contact.mjs";
+import { createEnglishTranslator } from "../src/english.mjs";
+import { escape } from "../src/site.mjs";
 const root = path.resolve(import.meta.dirname, "..");
 const dist = path.join(root, "dist");
 const files = await fs.readdir(dist, { recursive: true });
 let links = 0;
 for (const file of files.filter((f) => f.endsWith(".html"))) {
   const html = await fs.readFile(path.join(dist, file), "utf8");
-  assert.match(html, /<html lang="sr-Latn">/);
+  assert.match(html, file.replaceAll("\\", "/").startsWith("en/") ? /<html lang="en">/ : /<html lang="sr-Latn">/);
   assert.ok(
     !/squarespace|sqspcdn|images\.squarespace-cdn/.test(html),
     "Unexpected Squarespace runtime dependency: " + file,
@@ -56,7 +58,23 @@ for (const [kind, route] of [
       plain.includes(text.text),
       "Missing legal text: " + text.text.slice(0, 80),
     );
+  const english = await fs.readFile(path.join(dist, "en", route, "index.html"), "utf8");
+  const translate = createEnglishTranslator(content);
+  for (const text of content.legal[kind])
+    assert.ok(
+      english.includes(escape(translate(text.text))),
+      "Missing English legal text: " + text.text.slice(0, 80),
+    );
 }
+for (const route of ["", "works/", "usluge/", "o-meni/", "about/"]) {
+  const serbian = await fs.readFile(path.join(dist, route, "index.html"), "utf8");
+  const english = await fs.readFile(path.join(dist, "en", route, "index.html"), "utf8");
+  assert.ok(serbian.includes(`href="/en/${route}"`), `Missing English link on ${route}`);
+  assert.ok(english.includes(`href="/${route}"`), `Missing Serbian link on en/${route}`);
+}
+const englishBooking = await fs.readFile(path.join(dist, "en/about/index.html"), "utf8");
+assert.match(englishBooking, /<option value="Venčanje">Wedding<\/option>/);
+assert.match(englishBooking, /<button class="button submit-button" type="submit">SEND ENQUIRY<\/button>/);
 const valid = {
   name: "Local Test",
   email: "test@example.invalid",

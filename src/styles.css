@@ -155,6 +155,12 @@ main {
 .site-header nav a:hover {
   opacity: 0.65;
 }
+.site-header nav .language-switch {
+  border-left: 1px solid currentColor;
+  padding-left: 16px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
 .menu-toggle {
   display: none;
   background: none;
@@ -1266,6 +1272,13 @@ main {
     font-size: 23px;
     line-height: 1.5;
     letter-spacing: 3px;
+  }
+  .site-header nav .language-switch {
+    border-left: 0;
+    border-top: 1px solid currentColor;
+    padding: 14px 16px 0;
+    font-size: 17px;
+    letter-spacing: 0.08em;
   }
   .site-header nav.is-open {
     display: flex;

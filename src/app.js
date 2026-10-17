@@ -1,4 +1,10 @@
 (() => {
+  const english = document.documentElement.lang === "en";
+  const localize = (serbian, translated) => english ? translated : serbian;
+  const serviceName = (value) =>
+    ({ Venčanje: "Wedding", Portret: "Portrait", Poslovni: "Business", Proslava: "Celebration" })[value] || value;
+  const communicationName = (value) =>
+    ({ Telefonom: "By phone", "Video pozivom": "By video call", Uživo: "In person" })[value] || value;
   const menu = document.querySelector(".menu-toggle");
   const nav = document.querySelector("#main-navigation");
   const main = document.querySelector("main");
@@ -6,7 +12,7 @@
   function closeMenu() {
     nav.classList.remove("is-open");
     menu.setAttribute("aria-expanded", "false");
-    menu.setAttribute("aria-label", "Otvori meni");
+    menu.setAttribute("aria-label", localize("Otvori meni", "Open menu"));
     document.body.classList.remove("menu-open");
     main.inert = false;
     footer.inert = false;
@@ -15,13 +21,20 @@
     const open = menu.getAttribute("aria-expanded") !== "true";
     nav.classList.toggle("is-open", open);
     menu.setAttribute("aria-expanded", String(open));
-    menu.setAttribute("aria-label", open ? "Zatvori meni" : "Otvori meni");
+    menu.setAttribute("aria-label", open ? localize("Zatvori meni", "Close menu") : localize("Otvori meni", "Open menu"));
     document.body.classList.toggle("menu-open", open);
     main.inert = open;
     footer.inert = open;
   });
   nav.addEventListener("click", (event) => {
     if (event.target.closest("a")) closeMenu();
+  });
+  document.querySelector(".language-switch")?.addEventListener("click", (event) => {
+    const link = event.currentTarget;
+    const destination = new URL(link.href);
+    destination.search = location.search;
+    destination.hash = location.hash;
+    link.href = destination.pathname + destination.search + destination.hash;
   });
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && nav.classList.contains("is-open")) {
@@ -200,9 +213,11 @@
     status.dataset.state = state;
   };
   function prepareFallback(data) {
-    requestText = `Zdravo,\n\nZainteresovan/a sam za fotografisanje.\n\nIme i prezime: ${data.name}\nImejl: ${data.email}\nTelefon: ${data.phone}\nUsluga: ${data.service}\nDatum: ${data.date}\nKomunikacija: ${data.communication.join(", ") || "Po dogovoru"}\n\nPaket / specifične potrebe:\n${data.details || "—"}\n`;
+    requestText = english
+      ? `Hello,\n\nI would like to enquire about a photo session.\n\nFull name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nService: ${serviceName(data.service)}\nDate: ${data.date}\nPreferred contact: ${data.communication.map(communicationName).join(", ") || "To be arranged"}\n\nPackage / specific requests:\n${data.details || "—"}\n`
+      : `Zdravo,\n\nZainteresovan/a sam za fotografisanje.\n\nIme i prezime: ${data.name}\nImejl: ${data.email}\nTelefon: ${data.phone}\nUsluga: ${data.service}\nDatum: ${data.date}\nKomunikacija: ${data.communication.join(", ") || "Po dogovoru"}\n\nPaket / specifične potrebe:\n${data.details || "—"}\n`;
     document.querySelector("#email-draft").href =
-      `mailto:photo@nnarcher.com?subject=${encodeURIComponent("Upit za fotografisanje — " + data.service)}&body=${encodeURIComponent(requestText)}`;
+      `mailto:photo@nnarcher.com?subject=${encodeURIComponent(english ? "Photography enquiry — " + serviceName(data.service) : "Upit za fotografisanje — " + data.service)}&body=${encodeURIComponent(requestText)}`;
     document.querySelector("#email-fallback").hidden = false;
   }
   document
@@ -210,10 +225,10 @@
     .addEventListener("click", async () => {
       try {
         await navigator.clipboard.writeText(requestText);
-        setStatus("Upit je kopiran. Pošaljite ga na photo@nnarcher.com.");
+        setStatus(localize("Upit je kopiran. Pošaljite ga na photo@nnarcher.com.", "Enquiry copied. Send it to photo@nnarcher.com."));
       } catch {
         setStatus(
-          "Kopiranje nije dostupno. Koristite dugme OTVORITE IMEJL.",
+          localize("Kopiranje nije dostupno. Koristite dugme OTVORITE IMEJL.", "Copying is unavailable. Use the OPEN EMAIL button."),
           "error",
         );
       }
@@ -222,7 +237,7 @@
     event.preventDefault();
     if (!form.reportValidity()) return;
     submit.disabled = true;
-    submit.textContent = "SLANJE…";
+    submit.textContent = localize("SLANJE…", "SENDING…");
     document.querySelector("#email-fallback").hidden = true;
     setStatus("");
     const fields = new FormData(form);
@@ -233,7 +248,7 @@
       if (delivery.mode === "email") {
         prepareFallback(data);
         setStatus(
-          "Upit je pripremljen. Otvorite imejl i pošaljite poruku da biste završili slanje.",
+          localize("Upit je pripremljen. Otvorite imejl i pošaljite poruku da biste završili slanje.", "Your enquiry is ready. Open your email app and send the message to complete it."),
         );
         return;
       }
@@ -258,19 +273,19 @@
         if (result.ok !== true) throw new Error("Delivery not confirmed");
       }
       setStatus(
-        "Hvala! Vaš zahtev je poslat. Javiću Vam se uskoro.",
+        localize("Hvala! Vaš zahtev je poslat. Javiću Vam se uskoro.", "Thank you! Your enquiry has been sent. I'll be in touch soon."),
         "success",
       );
       form.reset();
     } catch {
       prepareFallback(data);
       setStatus(
-        "Zahtev nije poslat. Pokušajte ponovo ili nastavite putem imejla.",
+        localize("Zahtev nije poslat. Pokušajte ponovo ili nastavite putem imejla.", "Your enquiry was not sent. Please try again or continue by email."),
         "error",
       );
     } finally {
       submit.disabled = false;
-      submit.textContent = "POŠALJITE ZAHTEV";
+      submit.textContent = localize("POŠALJITE ZAHTEV", "SEND ENQUIRY");
     }
   });
 })();
