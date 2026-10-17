@@ -105,3 +105,4 @@ assert.match(formatBooking(valid), /Portret/);
 console.log(
   `Passed: ${links} local links/assets; 71 images; 60 gallery placements; complete legal text; contact validation.`,
 );
+await import("./check-seo.mjs");

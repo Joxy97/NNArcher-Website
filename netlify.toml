@@ -1,12 +1,37 @@
 [build]
-  command = "npm run build"
+  command = "npm run build && npm run check"
   publish = "dist"
 [build.environment]
   NODE_VERSION = "22"
   CONTACT_DELIVERY = "netlify"
+
+[[redirects]]
+  from = "https://nnarcher.com/*"
+  to = "https://www.nnarcher.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "http://nnarcher.com/*"
+  to = "https://www.nnarcher.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "http://www.nnarcher.com/*"
+  to = "https://www.nnarcher.com/:splat"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Frame-Options = "SAMEORIGIN"
+[[headers]]
+  for = "/assets/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+[[headers]]
+  for = "/assets/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

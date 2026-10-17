@@ -618,6 +618,58 @@ main {
   grid-column: 3;
 }
 /* Services */
+/* Shared layout for service sections and individual service pages. */
+.service-landing {
+  padding-top: 45px;
+}
+.service-section.service-landing {
+  /* The document's scroll padding already accounts for the fixed header. */
+  scroll-margin-top: 0;
+}
+.service-landing .service-landing-title {
+  font-size: clamp(32px, 4vw, 62px);
+  line-height: 1.14;
+  margin-bottom: 32px;
+}
+.service-landing .service-intro {
+  max-width: 1050px;
+}
+.service-breadcrumbs {
+  margin-bottom: 28px;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+.service-breadcrumbs a {
+  text-underline-offset: 3px;
+}
+.service-questions {
+  max-width: 1050px;
+  margin-top: 70px;
+}
+.service-questions h2,
+.service-questions h3,
+.service-landing-gallery h2,
+.service-landing-gallery h3 {
+  font-size: clamp(28px, 3vw, 44px);
+  margin-bottom: 30px;
+}
+.service-questions details {
+  padding-block: 18px;
+  border-bottom: 1px solid #1c301e55;
+}
+.service-questions summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+.service-questions p {
+  margin-top: 14px;
+}
+.service-landing-gallery h2,
+.service-landing-gallery h3 {
+  text-align: center;
+  margin-inline: 6vw;
+}
 .service-overview {
   padding: 45px 0 220px;
 }
@@ -1528,7 +1580,8 @@ main {
     font-size: 12px;
     padding-inline: 10px;
   }
-  .service-section h2 {
+  .service-section h2,
+  .service-questions h3 {
     font-size: 33px;
   }
   .service-section {

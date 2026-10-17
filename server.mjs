@@ -155,6 +155,12 @@ const server = http.createServer(async (req, res) => {
     } catch {
       return json(res, 400, { ok: false });
     }
+    const legacyHome = pathname.match(/^(\/en)?\/home(?:-1)?(?:\/index\.html|\/)?$/);
+    const canonicalPath = legacyHome ? `${legacyHome[1] || ""}/` : url.pathname.endsWith("/index.html") ? url.pathname.slice(0, -10) : null;
+    if (canonicalPath) {
+      res.writeHead(301, { ...headers, Location: canonicalPath.replace(/^\/+/, "/") + url.search });
+      return res.end();
+    }
     let filename = path.resolve(dist, "." + pathname);
     const relative = path.relative(dist, filename);
     if (relative.startsWith("..") || path.isAbsolute(relative))
@@ -162,7 +168,13 @@ const server = http.createServer(async (req, res) => {
     let status = 200;
     try {
       const stat = await fs.stat(filename);
-      if (stat.isDirectory()) filename = path.join(filename, "index.html");
+      if (stat.isDirectory()) {
+        if (!pathname.endsWith("/")) {
+          res.writeHead(301, { ...headers, Location: url.pathname.replace(/^\/+/, "/") + "/" + url.search });
+          return res.end();
+        }
+        filename = path.join(filename, "index.html");
+      }
       await fs.access(filename);
     } catch {
       filename = path.join(dist, pathname.startsWith("/en/") ? "en/404.html" : "404.html");

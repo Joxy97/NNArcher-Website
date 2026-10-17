@@ -9,6 +9,7 @@
     "build": "node tools/build.mjs",
     "import": "node tools/import-reference.mjs",
     "check": "node tools/check.mjs",
+    "check:seo": "node tools/check-seo.mjs",
     "check:smtp": "node tools/test-contact.mjs"
   },
   "dependencies": { "nodemailer": "^7.0.0" },

@@ -1,0 +1,97 @@
+NNPhotoArcher — SEO launch and local search
+
+Prepared for: Belgrade first, Novi Sad and other Serbian cities by arrangement.
+Canonical website: https://www.nnarcher.com/
+Serbian is the default language. English has its own pages and reciprocal language links.
+
+IMPLEMENTED IN THIS PROJECT
+
+- Unique Serbian and English titles and descriptions for every canonical page.
+- Four useful service pages in both languages, linked from the existing homepage
+  and gallery. They show service scope, real packages and prices, photos, booking
+  links and answers to common client questions using the site's existing style.
+  USLUGE uses the same service content and layout; its overview buttons scroll
+  to the matching sections. Homepage and gallery links open the individual pages.
+- Organization, photographer, website, page, breadcrumb, service and offer data.
+  No unverified reviews, street address, opening hours or ranking claims were added.
+- Descriptions of the actual portfolio photos in Serbian and English.
+- A sitemap containing 22 canonical pages, language alternates and portfolio images.
+- Canonical URLs, social sharing metadata, large-image preview permission,
+  priority loading for key images/fonts, and long caching for hashed image/font assets.
+- Permanent redirects for old homepage aliases and the non-www domain.
+- Noindex protection for Netlify deploy previews, branch deploys and error pages.
+- Automated checks: npm run build, then npm run check (includes SEO checks).
+
+LAUNCH ACTIONS REQUIRING THE SITE OWNER'S ACCOUNTS
+
+1. Deploy the latest project on Netlify, using the checked-in build command
+   (npm run build && npm run check) and publishing dist.
+   Set www.nnarcher.com as the primary domain and enable HTTPS. Confirm that
+   nnarcher.com redirects to it. Do not set a different primary domain while the
+   project's canonical URLs use www.nnarcher.com.
+   Redirect the production project's exact *.netlify.app hostname to the custom
+   domain after its hostname is known. Do not apply a blanket netlify.app redirect
+   that would break deploy previews.
+
+2. Verify nnarcher.com as a Domain property in Google Search Console using the
+   DNS TXT record Google provides. For URL-prefix verification, this build also
+   supports an optional GOOGLE_SITE_VERIFICATION environment variable containing
+   Google's verification token; redeploy after setting it.
+
+3. Submit https://www.nnarcher.com/sitemap.xml in Search Console. Inspect the live
+   homepage and each Serbian service URL, check the rendered page and selected
+   canonical, then request indexing. Use Google's Rich Results Test on live pages.
+   Service markup describes the offering; it does not guarantee a special result.
+
+4. Create or update the genuine Google Business Profile for NNPhotoArcher.
+   Use the real business name without added keywords, the most accurate available
+   photographer category, the existing phone/email, and the canonical website.
+   Set Belgrade and the actual service areas, including Novi Sad where appropriate.
+   If clients do not visit a staffed business address, configure a service-area
+   business and hide the private address. Do not create fictitious city branches.
+   Complete Google's ownership verification and add authentic portfolio photos
+   and the actual wedding, portrait, lifestyle, event and business services.
+
+5. Ask real clients for honest reviews without rewards or review filtering. Build
+   genuine references from venues, planners and other collaborators who know the
+   photographer's work. Use consistent contact details across public profiles.
+
+6. Measure results in Search Console after launch: impressions, clicks, queries,
+   indexed pages and Core Web Vitals. Monitor the site's enquiries as the business
+   outcome. Review changes over weeks and months rather than repeated daily edits.
+
+SEARCH INTENT MAP
+
+/                         fotograf Beograd; fotografkinja Beograd
+/fotograf-za-vencanja/     fotograf za vencanja; fotograf za svadbu; Beograd
+/fotograf-za-proslave/     fotograf za proslave/dogadjaje; rodjendani; krstenja
+/lifestyle-fotograf/       lifestyle fotograf; portretno fotografisanje Beograd
+/poslovno-fotografisanje/  poslovni portreti; LinkedIn fotografije; Beograd
+/usluge/                  paketi i cene fotografisanja
+/works/                   portfolio i izbor fotografa
+
+Search phrases above illustrate intent, not measured search volume. Public copy
+uses natural Serbian spelling, rather than repeated variants with and without
+diacritics. The service pages mention Novi Sad without generating duplicate city
+pages. USLUGE sections match the individual service pages in both languages.
+
+MAINTENANCE
+
+Edit packages/prices in src/services.mjs and English copy in src/english.mjs.
+If prices, service scope or coverage change, also update the relevant answers and
+metadata in src/seo.mjs. Update src/image-descriptions.mjs when gallery photos change.
+Rebuild and run npm run check before deploying. The sitemap intentionally omits
+invented modification dates and unsupported priority hints.
+
+Google determines rankings. Website improvements cannot guarantee first place;
+local visibility also depends on relevance, distance, reputation and competition.
+Deployment, account verification and live indexing have not been performed by
+these local code changes.
+
+Official references:
+https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+https://developers.google.com/search/docs/specialty/international/localized-versions
+https://developers.google.com/search/docs/appearance/structured-data/organization
+https://developers.google.com/search/docs/appearance/google-images
+https://support.google.com/business/answer/7091
+https://docs.netlify.com/manage/routing/redirects/redirect-options/
