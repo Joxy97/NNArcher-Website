@@ -76,7 +76,7 @@ for (const language of ["sr", "en"]) {
 const redirects = await fs.readFile(path.join(dist, "_redirects"), "utf8");
 assert.match(redirects, /\/home \/ 301!/);
 assert.match(redirects, /\/en\/\* \/en\/404\.html 404/);
-assert.match(await fs.readFile(path.join(dist, "robots.txt"), "utf8"), /Sitemap: https:\/\/www\.nnarcher\.com\/sitemap\.xml/);
+assert.ok((await fs.readFile(path.join(dist, "robots.txt"), "utf8")).includes(`Sitemap: ${siteOrigin}/sitemap.xml`));
 const headers = await fs.readFile(path.join(dist, "_headers"), "utf8");
 if (isPreview) assert.match(headers, /^\/\*\n  X-Robots-Tag: noindex, follow/);
 else assert.doesNotMatch(headers, /^\/\*\n  X-Robots-Tag: noindex/);

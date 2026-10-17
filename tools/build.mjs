@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { createSite } from "../src/site.mjs";
-import { sitemapXml } from "../src/seo.mjs";
+import { sitemapXml, siteOrigin } from "../src/seo.mjs";
 const root = path.resolve(import.meta.dirname, "..");
 const content = JSON.parse(
   await fs.readFile(path.join(root, "src/content.json"), "utf8"),
@@ -42,7 +42,7 @@ await fs.writeFile(
 );
 await fs.writeFile(
   path.join(dist, "robots.txt"),
-  "User-agent: *\nAllow: /\nSitemap: https://www.nnarcher.com/sitemap.xml\n",
+  `User-agent: *\nAllow: /\nSitemap: ${siteOrigin}/sitemap.xml\n`,
 );
 await fs.writeFile(path.join(dist, "_headers"),
   (indexable ? "/404.html\n  X-Robots-Tag: noindex\n/en/404.html\n  X-Robots-Tag: noindex\n" : "/*\n  X-Robots-Tag: noindex, follow\n"));

@@ -5,21 +5,9 @@
   NODE_VERSION = "22"
   CONTACT_DELIVERY = "netlify"
 
-[[redirects]]
-  from = "https://nnarcher.com/*"
-  to = "https://www.nnarcher.com/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "http://nnarcher.com/*"
-  to = "https://www.nnarcher.com/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "http://www.nnarcher.com/*"
-  to = "https://www.nnarcher.com/:splat"
-  status = 301
-  force = true
+# Netlify owns HTTPS and www/apex redirects through its primary-domain setting.
+# Keep src/seo.mjs siteOrigin in sync with that setting (currently nnarcher.com).
+# An opposite forced redirect here can create a domain redirect loop.
 
 [[headers]]
   for = "/*"

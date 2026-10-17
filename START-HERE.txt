@@ -48,8 +48,9 @@ HOSTING
 Static hosting: upload the CONTENTS of dist/ to the host's website root.
 It works with ordinary static hosting that serves directory index.html files.
 All old public routes and anchors are retained. No SPA rewrite is needed.
-Keep the current domain, or update canonical/OG URLs in src/site.mjs and sitemap
-URLs in tools/build.mjs before building for a different domain.
+Keep the current domain, or update siteOrigin in src/seo.mjs before building for
+a different domain. It controls canonical/OG URLs, structured data and sitemaps.
+It must match the primary domain configured on the host (currently nnarcher.com).
 
 Node hosting: install dependencies with npm ci, build, set HOST=0.0.0.0 and PORT
 for your host, and run npm start. Configure HTTPS through the host/reverse proxy.

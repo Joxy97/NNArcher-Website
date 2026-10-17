@@ -1,6 +1,7 @@
 import { services } from "./services.mjs";
 
-export const siteOrigin = "https://www.nnarcher.com";
+// Must match the primary domain configured in Netlify.
+export const siteOrigin = "https://nnarcher.com";
 export const coreRoutes = ["/", "/works/", "/usluge/", "/o-meni/", "/about/", "/privacy-policy/", "/privacy-policy-1/"];
 export const servicePages = [
   {

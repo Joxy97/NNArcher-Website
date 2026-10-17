@@ -1,7 +1,7 @@
 NNPhotoArcher — SEO launch and local search
 
 Prepared for: Belgrade first, Novi Sad and other Serbian cities by arrangement.
-Canonical website: https://www.nnarcher.com/
+Canonical website: https://nnarcher.com/
 Serbian is the default language. English has its own pages and reciprocal language links.
 
 IMPLEMENTED IN THIS PROJECT
@@ -18,7 +18,8 @@ IMPLEMENTED IN THIS PROJECT
 - A sitemap containing 22 canonical pages, language alternates and portfolio images.
 - Canonical URLs, social sharing metadata, large-image preview permission,
   priority loading for key images/fonts, and long caching for hashed image/font assets.
-- Permanent redirects for old homepage aliases and the non-www domain.
+- Permanent redirects for old homepage aliases. Netlify manages HTTPS and
+  www/apex redirects using its primary-domain setting.
 - Noindex protection for Netlify deploy previews, branch deploys and error pages.
 - Automated checks: npm run build, then npm run check (includes SEO checks).
 
@@ -26,19 +27,19 @@ LAUNCH ACTIONS REQUIRING THE SITE OWNER'S ACCOUNTS
 
 1. Deploy the latest project on Netlify, using the checked-in build command
    (npm run build && npm run check) and publishing dist.
-   Set www.nnarcher.com as the primary domain and enable HTTPS. Confirm that
-   nnarcher.com redirects to it. Do not set a different primary domain while the
-   project's canonical URLs use www.nnarcher.com.
-   Redirect the production project's exact *.netlify.app hostname to the custom
-   domain after its hostname is known. Do not apply a blanket netlify.app redirect
-   that would break deploy previews.
+   The live site's primary domain is nnarcher.com, and www.nnarcher.com redirects
+   to it. Keep HTTPS enabled. Canonical URLs in src/seo.mjs must match the primary
+   domain. If you deliberately change the primary domain, update siteOrigin and
+   rebuild. Do not add forced www/apex redirects that oppose Netlify's setting.
+   The production Netlify hostname is nnphotoarcher.netlify.app. Keep this URL
+   available for deployment diagnostics; canonical tags point to the custom domain.
 
 2. Verify nnarcher.com as a Domain property in Google Search Console using the
    DNS TXT record Google provides. For URL-prefix verification, this build also
    supports an optional GOOGLE_SITE_VERIFICATION environment variable containing
    Google's verification token; redeploy after setting it.
 
-3. Submit https://www.nnarcher.com/sitemap.xml in Search Console. Inspect the live
+3. Submit https://nnarcher.com/sitemap.xml in Search Console. Inspect the live
    homepage and each Serbian service URL, check the rendered page and selected
    canonical, then request indexing. Use Google's Rich Results Test on live pages.
    Service markup describes the offering; it does not guarantee a special result.
@@ -83,6 +84,20 @@ metadata in src/seo.mjs. Update src/image-descriptions.mjs when gallery photos c
 Rebuild and run npm run check before deploying. The sitemap intentionally omits
 invented modification dates and unsupported priority hints.
 
+AVAILABILITY DIAGNOSTICS
+
+If the Netlify URL works but the custom domain cannot be reached, check DNS before
+changing page code. A successful Netlify build does not validate the visitor's DNS.
+Compare these commands in PowerShell:
+  nslookup nnarcher.com
+  nslookup nnarcher.com 1.1.1.1
+  nslookup www.nnarcher.com 1.1.1.1
+On 17 October 2026, the router resolver returned SERVFAIL/REFUSED, while Google,
+Cloudflare and all four authoritative servers returned valid Netlify records.
+HTTPS requests using those resolved addresses succeeded with valid certificates.
+Clear the local DNS cache or test another network to isolate a resolver/cache issue.
+The code changes do not change the computer's or router's DNS settings.
+
 Google determines rankings. Website improvements cannot guarantee first place;
 local visibility also depends on relevance, distance, reputation and competition.
 Deployment, account verification and live indexing have not been performed by
@@ -95,3 +110,4 @@ https://developers.google.com/search/docs/appearance/structured-data/organizatio
 https://developers.google.com/search/docs/appearance/google-images
 https://support.google.com/business/answer/7091
 https://docs.netlify.com/manage/routing/redirects/redirect-options/
+https://docs.netlify.com/manage/domains/manage-domains/manage-multiple-domains/
