@@ -48,6 +48,20 @@
 
   const track = document.querySelector(".service-track");
   if (track) {
+    const carousel = track.closest(".carousel");
+    const firstImage = track.querySelector(".home-service-card > img");
+    const centerArrows = () => {
+      const image = firstImage.getBoundingClientRect();
+      const container = carousel.getBoundingClientRect();
+      carousel.style.setProperty(
+        "--carousel-arrow-top",
+        `${image.top - container.top + image.height / 2}px`,
+      );
+    };
+    const arrowObserver = new ResizeObserver(centerArrows);
+    arrowObserver.observe(track);
+    arrowObserver.observe(firstImage);
+    centerArrows();
     const move = (direction) => {
       const card = track.firstElementChild;
       const step =

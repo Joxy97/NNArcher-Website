@@ -214,6 +214,16 @@ main {
   line-height: 1.5;
   letter-spacing: 1.96px;
 }
+.footer-brand {
+  grid-column: 1;
+  justify-self: start;
+  display: block;
+  width: 105px;
+}
+.footer-brand img {
+  width: 100%;
+  height: auto;
+}
 .footer-legal {
   grid-column: 2;
   text-align: center;
@@ -265,7 +275,6 @@ main {
   text-align: center;
   background: #0005;
   padding: 12px 20px 25px;
-  min-height: 218px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -287,15 +296,14 @@ main {
   left: 3%;
   width: 94%;
   text-align: center;
-  font: 400 clamp(38px, 5.365vw, 96px)/1.027 var(--serif);
+  font: 400 clamp(28px, 5vw, 96px)/1.027 var(--serif);
   letter-spacing: 0.01em;
 }
 .hero-statement p {
-  max-width: 1290px;
+  white-space: nowrap;
   margin: auto;
 }
 .hero-statement p + p {
-  max-width: 1190px;
   margin-top: 0;
 }
 .hero-statement strong {
@@ -321,7 +329,7 @@ main {
   scroll-snap-type: x mandatory;
   scroll-padding-inline: 3vw;
   scrollbar-width: none;
-  align-items: flex-end;
+  align-items: stretch;
 }
 .service-track::-webkit-scrollbar {
   display: none;
@@ -329,6 +337,8 @@ main {
 .home-service-card {
   background: white;
   padding: 8px;
+  display: flex;
+  flex-direction: column;
   flex: 0 0 28vw;
   min-width: 315px;
   max-width: 460px;
@@ -344,6 +354,9 @@ main {
   object-fit: cover;
 }
 .card-copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding: 13px 0 0;
 }
 .card-copy h3 {
@@ -359,21 +372,34 @@ main {
   max-width: 75%;
 }
 .card-copy .button {
+  align-self: flex-start;
+  margin-top: auto;
   padding: 11px 19px;
 }
 .carousel-prev,
 .carousel-next {
   position: absolute;
-  top: 45%;
+  top: var(--carousel-arrow-top, 40%);
+  transform: translateY(-50%);
   width: 60px;
   height: 60px;
   border: 0;
   border-radius: 50%;
   background: #1c301eb3;
   color: var(--cream);
-  font: 400 38px/1 var(--serif);
   display: grid;
   place-items: center;
+}
+.carousel-prev svg,
+.carousel-next svg {
+  display: block;
+  width: 44px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 .carousel-prev {
   left: 5%;
@@ -644,8 +670,7 @@ main {
 }
 .service-feature {
   width: 100%;
-  aspect-ratio: 0.79;
-  object-fit: cover;
+  height: auto;
 }
 .packages {
   max-width: 620px;
@@ -703,16 +728,12 @@ main {
 }
 .wedding-packages > img {
   width: 100%;
-  aspect-ratio: 1.52;
-  object-fit: cover;
+  height: auto;
 }
 .wedding-packages > .package {
   padding: 0;
   border: 0;
   margin: 0;
-}
-.wedding-packages > .package:nth-child(2) {
-  padding-left: 8vw;
 }
 .wedding-packages > .package:nth-child(3) {
   max-width: 620px;
@@ -728,7 +749,6 @@ main {
 .business-section .service-feature {
   grid-column: 2;
   grid-row: 1;
-  aspect-ratio: 0.73;
 }
 .business-section .packages {
   grid-column: 1;
@@ -806,6 +826,9 @@ main {
   gap: 6.4%;
 }
 .story-column {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
   min-width: 0;
 }
 .story-column h2 {
@@ -816,17 +839,15 @@ main {
 }
 .story-portrait {
   width: 88.67%;
-  aspect-ratio: 0.604;
-  object-fit: cover;
+  height: auto;
 }
 .principles {
-  margin-top: 50px;
+  margin-top: auto;
 }
 .mirror-portrait {
   width: 88.67%;
-  aspect-ratio: 0.743;
-  object-fit: cover;
-  margin-top: 50px;
+  height: auto;
+  margin-top: auto;
 }
 .story-arrow {
   width: 362px;
@@ -1048,12 +1069,20 @@ main {
     font-size: 13px;
   }
   .site-footer {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 105px minmax(0, 1fr);
     padding-block: 28px;
     gap: 24px;
   }
+  .footer-brand {
+    grid-row: 1 / span 2;
+    align-self: center;
+  }
   .footer-legal {
-    grid-column: 1;
+    grid-column: 2;
+  }
+  .site-footer .contact-links {
+    grid-column: 2;
+    justify-self: center;
   }
   .footer-legal nav {
     gap: 25px;
@@ -1073,9 +1102,6 @@ main {
   .package ul {
     font-size: 17px;
     letter-spacing: 1.5px;
-  }
-  .wedding-packages > .package:nth-child(2) {
-    padding-left: 2vw;
   }
   .definition p {
     font-size: 18px;
@@ -1125,11 +1151,8 @@ main {
   .home-hero {
     height: 760px;
   }
-  .hero-brand {
-    min-height: 170px;
-  }
   .hero-statement {
-    font-size: 6.4vw;
+    font-size: 5vw;
     bottom: 35px;
   }
   .overview-grid {
@@ -1158,15 +1181,9 @@ main {
     grid-template-columns: 43% 52%;
     gap: 5%;
   }
-  .service-feature {
-    aspect-ratio: 0.6;
-  }
   .business-section .service-details {
     grid-template-columns: 50% 44%;
     gap: 6%;
-  }
-  .business-section .service-feature {
-    aspect-ratio: 0.55;
   }
   .gallery-section h1 {
     font-size: 6vw;
@@ -1268,7 +1285,6 @@ main {
     object-position: 25% 50%;
   }
   .hero-brand {
-    min-height: 135px;
     padding-top: 22px;
     background: #0004;
   }
@@ -1285,6 +1301,9 @@ main {
     width: 90%;
     left: 5%;
     bottom: 35px;
+  }
+  .hero-statement p {
+    white-space: normal;
   }
   .hero-statement p + p {
     margin-top: 10px;
@@ -1336,8 +1355,10 @@ main {
   .carousel-next {
     width: 45px;
     height: 45px;
-    top: 35%;
-    font-size: 30px;
+  }
+  .carousel-prev svg,
+  .carousel-next svg {
+    width: 32px;
   }
   .carousel-prev {
     left: 8%;
@@ -1402,9 +1423,16 @@ main {
   .site-footer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 24px;
     padding: 32px 6vw;
     font-size: 12px;
+    text-align: center;
+  }
+  .footer-brand {
+    order: 0;
+    align-self: center;
+    width: 95px;
   }
   .footer-legal {
     order: 2;
@@ -1506,9 +1534,6 @@ main {
     gap: 28px;
     margin-top: 25px;
   }
-  .wedding-packages > .package:nth-child(2) {
-    padding-left: 0;
-  }
   .wedding-packages > .package:nth-child(3) {
     order: 4;
   }
@@ -1524,12 +1549,6 @@ main {
     flex-direction: column;
     gap: 28px;
     margin-top: 25px;
-  }
-  .service-feature,
-  .business-section .service-feature {
-    width: 100%;
-    aspect-ratio: 0.8;
-    max-height: 650px;
   }
   .packages {
     width: 100%;
@@ -1608,8 +1627,7 @@ main {
   .story-portrait {
     order: 2;
     width: 100%;
-    aspect-ratio: 0.67;
-    max-height: 700px;
+    height: auto;
   }
   .principles {
     order: 3;
@@ -1618,9 +1636,8 @@ main {
   .mirror-portrait {
     order: 4;
     width: 100%;
+    height: auto;
     margin-top: 0;
-    aspect-ratio: 0.75;
-    max-height: 650px;
   }
   .story-column h2 {
     font-size: 32px;
