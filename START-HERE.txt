@@ -1,0 +1,97 @@
+NNPHOTOARCHER — INDEPENDENT WEBSITE
+Local reconstruction of https://www.nnarcher.com, captured 17 October 2026.
+
+OPEN THE WEBSITE
+1. Double-click START-WEBSITE.cmd in this folder.
+2. Open http://127.0.0.1:4173 in your browser.
+3. Keep the terminal window open while using the preview. Close it to stop.
+Node.js 22 or later is required. It is already installed on this computer.
+Do not double-click dist/index.html: pages use website-root asset paths and need HTTP.
+
+WHAT IS INCLUDED
+- All seven main pages: home, gallery, services, about, contact, privacy, terms.
+- Original Serbian text, contact details, prices, photography, fonts and colors.
+- 60 gallery placements with their original order and crop focal points.
+- Responsive layouts, mobile navigation, service carousel, gallery viewer with
+  keyboard/swipe controls, booking links and form validation.
+- Entirely local images and fonts. No Squarespace scripts, CDN calls or analytics.
+- /home and /home-1 work as aliases for the rebuilt homepage. The old /home-1
+  alternate design is preserved in the reference capture and its assets.
+
+FILES AND CONTROL
+dist/                 Ready-to-host output: HTML, CSS, JavaScript and assets.
+src/styles.css        Colors, fonts, spacing, image crops and responsive rules.
+src/site.mjs          Page markup, navigation, footer and contact form.
+src/services.mjs      Service descriptions, packages and prices.
+src/content.json      Imported text, gallery order and image metadata.
+src/app.js            Menu, carousel, photo viewer and contact form behavior.
+src/contact.mjs       Server-side contact validation and email formatting.
+public/assets/        WebP images at four widths and self-hosted font files.
+public/contact-config.json   Static-host form mode (email by default).
+originals/            Best source image copies obtainable from the public CDN.
+reference/            Site capture, screenshots, source URLs and asset manifest.
+tools/                Build, asset import, verification and capture utilities.
+server.mjs            Optional Node server with SMTP contact delivery.
+.env.example          Example mail settings. Copy to .env and fill locally.
+netlify.toml          Optional Netlify build configuration.
+
+AFTER EDITING
+From a terminal in this folder:
+  npm run build
+  npm run check
+  npm start
+The prebuilt dist/ folder is already present. No build is needed to preview it.
+On another computer, run npm ci first if you need to rebuild or use SMTP email.
+The static site itself has no Node or package dependency when deployed.
+
+HOSTING
+Static hosting: upload the CONTENTS of dist/ to the host's website root.
+It works with ordinary static hosting that serves directory index.html files.
+All old public routes and anchors are retained. No SPA rewrite is needed.
+Keep the current domain, or update canonical/OG URLs in src/site.mjs and sitemap
+URLs in tools/build.mjs before building for a different domain.
+
+Node hosting: install dependencies with npm ci, build, set HOST=0.0.0.0 and PORT
+for your host, and run npm start. Configure HTTPS through the host/reverse proxy.
+Set SMTP in the host's private environment settings for direct form delivery.
+
+Netlify: the included netlify.toml builds dist/ and selects Netlify Forms mode.
+Enable form detection in that site's dashboard, deploy, confirm the booking form
+is detected, and set its email notifications. This external activation has not
+been performed. For manual dist/ uploads, set public/contact-config.json to
+{"mode":"netlify"} and rebuild before uploading.
+
+CONTACT FORM — CURRENT STATE
+Squarespace's private form backend cannot be migrated through the public site.
+The local/default static build prepares a prefilled email to photo@nnarcher.com.
+The visitor must click OTVORITE IMEJL and send it from their mail application.
+The UI explicitly distinguishes a prepared draft from a successfully sent request.
+KOPIRAJTE UPIT copies the request if a mail application is unavailable.
+
+For direct submission, copy .env.example to .env and supply SMTP_HOST, SMTP_FROM
+and any required SMTP_USER/SMTP_PASS. The server then enables direct delivery.
+SMTP_FROM should be a sender authorized by your mail provider. Requests use the
+visitor's email as Reply-To. SMTP_TO defaults to photo@nnarcher.com.
+Actual production delivery still needs your mail credentials or host activation.
+Never place mail credentials in public/, dist/ or browser JavaScript.
+
+IMAGE QUALITY
+All 71 distinct image URLs found across the main site and its alternate homepage
+were recovered. Most CDN responses are 2,500 pixels wide; some upload metadata
+lists larger masters. The originals/ folder contains untouched DOWNLOADED files,
+not a claim that these are full camera/export masters. See IMAGE-ASSETS.txt.
+The website uses optimized responsive copies derived from these downloads.
+Provide larger originals later if you want maximum-resolution archival copies.
+
+VERIFICATION
+- Seven main pages checked at widths 320, 390, 768, 1024, 1440 and 1920.
+- No page-level horizontal overflow or clipped headings at those widths.
+- 313 local links/assets checked; 71 images and 60 gallery placements present.
+- Legal text checked against the captured source.
+- Mobile menu, carousel, gallery keyboard navigation, booking prefill and the
+  default email-draft flow checked in a browser.
+- SMTP delivery, validation, honeypot, origin checks and rate limiting tested
+  against a local in-memory SMTP sink. No external email was sent.
+- No production hosting, domain/DNS change, or real booking submission performed.
+Screenshots are in reference/. Responsive changes deliberately replace the broken
+Squarespace positioning; exact pixel identity across every screen is not claimed.

@@ -1,0 +1,266 @@
+{
+  "checkedAt": "2026-10-17T14:21:25.763Z",
+  "layouts": [
+    {
+      "route": "/",
+      "width": 320,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/works/",
+      "width": 320,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/usluge/",
+      "width": 320,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/o-meni/",
+      "width": 320,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 320,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/privacy-policy-1/",
+      "width": 320,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/works/",
+      "width": 390,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/usluge/",
+      "width": 390,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/o-meni/",
+      "width": 390,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 390,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/privacy-policy-1/",
+      "width": 390,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/works/",
+      "width": 768,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/usluge/",
+      "width": 768,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/o-meni/",
+      "width": 768,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 768,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/privacy-policy-1/",
+      "width": 768,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/works/",
+      "width": 1024,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/usluge/",
+      "width": 1024,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/o-meni/",
+      "width": 1024,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/about/",
+      "width": 1024,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 1024,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/privacy-policy-1/",
+      "width": 1024,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/works/",
+      "width": 1440,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/usluge/",
+      "width": 1440,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/o-meni/",
+      "width": 1440,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 1440,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/privacy-policy-1/",
+      "width": 1440,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/",
+      "width": 1920,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/works/",
+      "width": 1920,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/usluge/",
+      "width": 1920,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/o-meni/",
+      "width": 1920,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/about/",
+      "width": 1920,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/privacy-policy/",
+      "width": 1920,
+      "overflow": 0,
+      "clipped": []
+    },
+    {
+      "route": "/privacy-policy-1/",
+      "width": 1920,
+      "overflow": 0,
+      "clipped": []
+    }
+  ],
+  "interactions": {
+    "menu": true,
+    "carousel": true,
+    "gallery": true,
+    "emailFallback": true,
+    "successUI": true,
+    "failureUI": true
+  },
+  "errors": []
+}

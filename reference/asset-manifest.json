@@ -1,0 +1,1865 @@
+{
+  "capturedAt": "2026-10-17T14:16:36.692Z",
+  "images": [
+    {
+      "id": "dsc08097-300c8066",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/e4a98938-98a8-4270-9bb0-b8d56b808967/DSC08097.jpg",
+      "original": "originals/dsc08097-300c8066.jpg",
+      "originalName": "DSC08097.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc08097-300c8066-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc08097-300c8066-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc08097-300c8066-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc08097-300c8066-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07043-2-d5e349e0",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/1b75c46c-1035-4e82-8d34-eb70daa8d2d2/DSC07043-2.jpg",
+      "original": "originals/dsc07043-2-d5e349e0.jpg",
+      "originalName": "DSC07043-2.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07043-2-d5e349e0-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07043-2-d5e349e0-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07043-2-d5e349e0-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07043-2-d5e349e0-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06956-ccde8600",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/8bf68654-78c9-438d-a6a0-dd5221d9cc86/DSC06956.jpg",
+      "original": "originals/dsc06956-ccde8600.jpg",
+      "originalName": "DSC06956.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06956-ccde8600-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06956-ccde8600-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06956-ccde8600-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06956-ccde8600-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07805-3394cd6f",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/e2fd9985-6961-4c06-9d36-2dad1dc3ba25/DSC07805.jpg",
+      "original": "originals/dsc07805-3394cd6f.jpg",
+      "originalName": "DSC07805.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07805-3394cd6f-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07805-3394cd6f-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07805-3394cd6f-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07805-3394cd6f-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06632-518f101a",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/26cb686e-b6f4-44cb-8a24-ce8f8814cfce/DSC06632.jpg",
+      "original": "originals/dsc06632-518f101a.jpg",
+      "originalName": "DSC06632.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06632-518f101a-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06632-518f101a-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06632-518f101a-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06632-518f101a-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "arrow-3a785058",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/0f0c4524-cd4e-49ac-b3f5-9c2b6d264a99/Arrow.png",
+      "original": "originals/arrow-3a785058.png",
+      "originalName": "Arrow.png",
+      "width": 2409,
+      "height": 1188,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/arrow-3a785058-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/arrow-3a785058-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/arrow-3a785058-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/arrow-3a785058-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "img-7793-2-69a16e7b",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/14f9e8e3-ab26-4bf0-bd5b-2e597d97cb8e/IMG_7793-2.jpg",
+      "original": "originals/img-7793-2-69a16e7b.jpg",
+      "originalName": "IMG_7793-2.jpg",
+      "width": 2500,
+      "height": 3500,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/img-7793-2-69a16e7b-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/img-7793-2-69a16e7b-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/img-7793-2-69a16e7b-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/img-7793-2-69a16e7b-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07595-3-f2a9bba8",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/144cf761-5b3b-4292-a0c3-2fbaa6628c3f/DSC07595-3.jpg",
+      "original": "originals/dsc07595-3-f2a9bba8.jpg",
+      "originalName": "DSC07595-3.jpg",
+      "width": 2500,
+      "height": 1322,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07595-3-f2a9bba8-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07595-3-f2a9bba8-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07595-3-f2a9bba8-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07595-3-f2a9bba8-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07476-c7f88c21",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/1788483715216-WBTJK1CV101YINDD83AL/DSC07476.jpg",
+      "original": "originals/dsc07476-c7f88c21.jpg",
+      "originalName": "DSC07476.jpg",
+      "width": 2500,
+      "height": 3500,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07476-c7f88c21-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07476-c7f88c21-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07476-c7f88c21-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07476-c7f88c21-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07513-2-5918e6c2",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/928d3456-158d-429c-94dc-c427d85a9ea9/DSC07513-2.jpg",
+      "original": "originals/dsc07513-2-5918e6c2.jpg",
+      "originalName": "DSC07513-2.jpg",
+      "width": 2253,
+      "height": 3379,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07513-2-5918e6c2-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07513-2-5918e6c2-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07513-2-5918e6c2-1600.webp"
+        },
+        {
+          "width": 2253,
+          "src": "/assets/images/dsc07513-2-5918e6c2-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07598-2-9734374e",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/575a9ef5-783c-4340-99be-a8c47403cc11/DSC07598-2.jpg",
+      "original": "originals/dsc07598-2-9734374e.jpg",
+      "originalName": "DSC07598-2.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07598-2-9734374e-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07598-2-9734374e-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07598-2-9734374e-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07598-2-9734374e-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07413-3b87659f",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/e6b98fb0-021e-439d-95f6-b673c163a4fe/DSC07413.jpg",
+      "original": "originals/dsc07413-3b87659f.jpg",
+      "originalName": "DSC07413.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07413-3b87659f-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07413-3b87659f-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07413-3b87659f-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07413-3b87659f-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07183-2-f5add717",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/5c0a028f-dee5-4812-8857-e2f40d3d2efb/DSC07183-2.jpg",
+      "original": "originals/dsc07183-2-f5add717.jpg",
+      "originalName": "DSC07183-2.jpg",
+      "width": 2500,
+      "height": 3500,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07183-2-f5add717-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07183-2-f5add717-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07183-2-f5add717-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07183-2-f5add717-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07197-3-c6b41cb4",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/67d07503-2aa8-4e0c-909c-d3edeb0c04d1/DSC07197-3.jpg",
+      "original": "originals/dsc07197-3-c6b41cb4.jpg",
+      "originalName": "DSC07197-3.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07197-3-c6b41cb4-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07197-3-c6b41cb4-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07197-3-c6b41cb4-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07197-3-c6b41cb4-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07493-2-aac46ea4",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/1788483956472-JF4W0RUQ65RZ5IIOA4VA/DSC07493-2.jpg",
+      "original": "originals/dsc07493-2-aac46ea4.jpg",
+      "originalName": "DSC07493-2.jpg",
+      "width": 2500,
+      "height": 1785,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07493-2-aac46ea4-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07493-2-aac46ea4-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07493-2-aac46ea4-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07493-2-aac46ea4-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07189-2-b9886864",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/8939b7b0-02e5-4d99-b611-c108fb03d987/DSC07189-2.jpg",
+      "original": "originals/dsc07189-2-b9886864.jpg",
+      "originalName": "DSC07189-2.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07189-2-b9886864-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07189-2-b9886864-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07189-2-b9886864-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07189-2-b9886864-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07520-c3a106d8",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/7f159ab4-00e2-4fdf-8c0a-957094082d08/DSC07520.jpg",
+      "original": "originals/dsc07520-c3a106d8.jpg",
+      "originalName": "DSC07520.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07520-c3a106d8-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07520-c3a106d8-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07520-c3a106d8-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07520-c3a106d8-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07381-2-d0bef602",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/c2c2c72f-0e01-4e65-ae39-ad068b3307a5/DSC07381-2.jpg",
+      "original": "originals/dsc07381-2-d0bef602.jpg",
+      "originalName": "DSC07381-2.jpg",
+      "width": 2500,
+      "height": 3500,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07381-2-d0bef602-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07381-2-d0bef602-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07381-2-d0bef602-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07381-2-d0bef602-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07428-2-b69df359",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/6d799bc3-7902-408f-a84d-5d6ce143e38f/DSC07428-2.jpg",
+      "original": "originals/dsc07428-2-b69df359.jpg",
+      "originalName": "DSC07428-2.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07428-2-b69df359-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07428-2-b69df359-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07428-2-b69df359-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07428-2-b69df359-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07551-2e09c99a",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/6f3a23a3-f221-4107-a764-351ebaee4d2f/DSC07551.jpg",
+      "original": "originals/dsc07551-2e09c99a.jpg",
+      "originalName": "DSC07551.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07551-2e09c99a-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07551-2e09c99a-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07551-2e09c99a-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07551-2e09c99a-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc08017-3-c3233c6c",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/f0ad2114-6e20-4885-b4c2-fa5aeaa83ef4/DSC08017-3.jpg",
+      "original": "originals/dsc08017-3-c3233c6c.jpg",
+      "originalName": "DSC08017-3.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc08017-3-c3233c6c-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc08017-3-c3233c6c-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc08017-3-c3233c6c-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc08017-3-c3233c6c-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc08082-6c8811c5",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/2499815b-1834-49af-99db-4ee3a0e3601d/DSC08082.jpg",
+      "original": "originals/dsc08082-6c8811c5.jpg",
+      "originalName": "DSC08082.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc08082-6c8811c5-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc08082-6c8811c5-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc08082-6c8811c5-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc08082-6c8811c5-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc00776-0fe242fa",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/ae5bae9c-294d-4ad0-baea-e31ca1344889/DSC00776.jpg",
+      "original": "originals/dsc00776-0fe242fa.jpg",
+      "originalName": "DSC00776.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc00776-0fe242fa-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc00776-0fe242fa-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc00776-0fe242fa-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc00776-0fe242fa-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc08119-615d69d7",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/3d718bfd-3871-404d-a0b2-a7e62718625e/DSC08119.jpg",
+      "original": "originals/dsc08119-615d69d7.jpg",
+      "originalName": "DSC08119.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc08119-615d69d7-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc08119-615d69d7-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc08119-615d69d7-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc08119-615d69d7-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc00937-cf1bc9e2",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/81da37eb-1328-4d3f-8a55-345482816794/DSC00937.jpg",
+      "original": "originals/dsc00937-cf1bc9e2.jpg",
+      "originalName": "DSC00937.jpg",
+      "width": 2500,
+      "height": 3125,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc00937-cf1bc9e2-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc00937-cf1bc9e2-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc00937-cf1bc9e2-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc00937-cf1bc9e2-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc00856-41840a59",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/099aa9cd-d3ab-4fe8-9d7b-7a9af0913436/DSC00856.jpg",
+      "original": "originals/dsc00856-41840a59.jpg",
+      "originalName": "DSC00856.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc00856-41840a59-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc00856-41840a59-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc00856-41840a59-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc00856-41840a59-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc08056-2eda1324",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/5d54590d-851f-4b82-8661-e666f63d930a/DSC08056.jpg",
+      "original": "originals/dsc08056-2eda1324.jpg",
+      "originalName": "DSC08056.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc08056-2eda1324-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc08056-2eda1324-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc08056-2eda1324-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc08056-2eda1324-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc08015-5148c4db",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/e241b03d-de5e-46d7-b6c0-138ed0a50e17/DSC08015.jpg",
+      "original": "originals/dsc08015-5148c4db.jpg",
+      "originalName": "DSC08015.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc08015-5148c4db-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc08015-5148c4db-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc08015-5148c4db-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc08015-5148c4db-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07984-503ac781",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/31436dce-b101-4811-8a45-a62e93f84d1e/DSC07984.jpg",
+      "original": "originals/dsc07984-503ac781.jpg",
+      "originalName": "DSC07984.jpg",
+      "width": 2500,
+      "height": 3500,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07984-503ac781-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07984-503ac781-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07984-503ac781-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07984-503ac781-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07977-62c1d0bb",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/6fc3e985-579f-412b-8af5-40ac7da255a7/DSC07977.jpg",
+      "original": "originals/dsc07977-62c1d0bb.jpg",
+      "originalName": "DSC07977.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07977-62c1d0bb-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07977-62c1d0bb-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07977-62c1d0bb-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07977-62c1d0bb-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07898-711cb482",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/fe6868d4-f6c2-456e-b724-362d343e4542/DSC07898.jpg",
+      "original": "originals/dsc07898-711cb482.jpg",
+      "originalName": "DSC07898.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07898-711cb482-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07898-711cb482-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07898-711cb482-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07898-711cb482-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07946-4c72b3a4",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/4624b820-36aa-402f-98eb-c9256c0d2fcb/DSC07946.jpg",
+      "original": "originals/dsc07946-4c72b3a4.jpg",
+      "originalName": "DSC07946.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07946-4c72b3a4-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07946-4c72b3a4-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07946-4c72b3a4-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07946-4c72b3a4-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc00972-2-71f1f2dc",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/4465faf7-e043-4749-9304-65d25608d3a1/DSC00972-2.jpg",
+      "original": "originals/dsc00972-2-71f1f2dc.jpg",
+      "originalName": "DSC00972-2.jpg",
+      "width": 2500,
+      "height": 3334,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc00972-2-71f1f2dc-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc00972-2-71f1f2dc-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc00972-2-71f1f2dc-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc00972-2-71f1f2dc-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc01311-2-ef06d473",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/2b7e47bc-72bf-46f7-93f9-64752bd27e8a/DSC01311-2.jpg",
+      "original": "originals/dsc01311-2-ef06d473.jpg",
+      "originalName": "DSC01311-2.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc01311-2-ef06d473-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc01311-2-ef06d473-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc01311-2-ef06d473-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc01311-2-ef06d473-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc05897-3-dac1c70f",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/e7987d58-6522-4cc8-9327-6b5f33d16592/DSC05897-3.......jpg",
+      "original": "originals/dsc05897-3-dac1c70f.jpg",
+      "originalName": "DSC05897-3.......jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc05897-3-dac1c70f-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc05897-3-dac1c70f-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc05897-3-dac1c70f-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc05897-3-dac1c70f-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc04413-2-000a97ce",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/555f385a-680a-412c-9488-c1c3c7c3829d/DSC04413-2.jpg",
+      "original": "originals/dsc04413-2-000a97ce.jpg",
+      "originalName": "DSC04413-2.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc04413-2-000a97ce-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc04413-2-000a97ce-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc04413-2-000a97ce-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc04413-2-000a97ce-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc04815-2-4072461f",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/b39009de-0196-423f-8cfc-f5484855202d/DSC04815-2....jpg",
+      "original": "originals/dsc04815-2-4072461f.jpg",
+      "originalName": "DSC04815-2....jpg",
+      "width": 2245,
+      "height": 3368,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc04815-2-4072461f-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc04815-2-4072461f-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc04815-2-4072461f-1600.webp"
+        },
+        {
+          "width": 2245,
+          "src": "/assets/images/dsc04815-2-4072461f-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc00312-3-2f4cb0da",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/43998956-77b6-4f98-a52c-201cdf7130d7/DSC00312-3....jpg",
+      "original": "originals/dsc00312-3-2f4cb0da.jpg",
+      "originalName": "DSC00312-3....jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc00312-3-2f4cb0da-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc00312-3-2f4cb0da-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc00312-3-2f4cb0da-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc00312-3-2f4cb0da-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc08706-2-30c8c21a",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/ed2e7fbf-0b7a-4d49-bd55-ef0584acba43/DSC08706-2.jpg",
+      "original": "originals/dsc08706-2-30c8c21a.jpg",
+      "originalName": "DSC08706-2.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc08706-2-30c8c21a-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc08706-2-30c8c21a-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc08706-2-30c8c21a-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc08706-2-30c8c21a-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc03550-2-fa55880c",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/8714891c-0cc1-41e4-b491-913be1307c66/DSC03550-2.jpg",
+      "original": "originals/dsc03550-2-fa55880c.jpg",
+      "originalName": "DSC03550-2.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc03550-2-fa55880c-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc03550-2-fa55880c-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc03550-2-fa55880c-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc03550-2-fa55880c-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc04519-b1c04bf0",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/39c6b3e9-2d67-49da-a279-2e0d24815c5d/DSC04519.jpg",
+      "original": "originals/dsc04519-b1c04bf0.jpg",
+      "originalName": "DSC04519.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc04519-b1c04bf0-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc04519-b1c04bf0-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc04519-b1c04bf0-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc04519-b1c04bf0-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc04801-2-a12592c3",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/df58bf55-18ac-482e-898e-1b22d0ff54cc/DSC04801-2.jpg",
+      "original": "originals/dsc04801-2-a12592c3.jpg",
+      "originalName": "DSC04801-2.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc04801-2-a12592c3-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc04801-2-a12592c3-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc04801-2-a12592c3-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc04801-2-a12592c3-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc01769-3-50c99160",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/065b1190-09ff-40d3-8c57-eff7a0f55e96/DSC01769-3.jpg",
+      "original": "originals/dsc01769-3-50c99160.jpg",
+      "originalName": "DSC01769-3.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc01769-3-50c99160-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc01769-3-50c99160-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc01769-3-50c99160-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc01769-3-50c99160-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc01442-2-51125484",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/313bc42c-9672-4af6-94ba-0de9b2815d3b/DSC01442-2.jpg",
+      "original": "originals/dsc01442-2-51125484.jpg",
+      "originalName": "DSC01442-2.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc01442-2-51125484-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc01442-2-51125484-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc01442-2-51125484-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc01442-2-51125484-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc05884-5843cde7",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/5f6bf550-1354-4dd6-b088-d97a283c1eab/DSC05884.jpg",
+      "original": "originals/dsc05884-5843cde7.jpg",
+      "originalName": "DSC05884.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc05884-5843cde7-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc05884-5843cde7-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc05884-5843cde7-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc05884-5843cde7-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc05154-2-298bcb3a",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/f94c3405-8d14-48b6-960f-b4bdf1a37793/DSC05154-2.jpg",
+      "original": "originals/dsc05154-2-298bcb3a.jpg",
+      "originalName": "DSC05154-2.jpg",
+      "width": 2500,
+      "height": 3542,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc05154-2-298bcb3a-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc05154-2-298bcb3a-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc05154-2-298bcb3a-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc05154-2-298bcb3a-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc00272-3-fab212c0",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/745f70b7-82f5-4a37-8387-08d353c6fce9/DSC00272-3.jpg",
+      "original": "originals/dsc00272-3-fab212c0.jpg",
+      "originalName": "DSC00272-3.jpg",
+      "width": 2500,
+      "height": 1577,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc00272-3-fab212c0-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc00272-3-fab212c0-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc00272-3-fab212c0-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc00272-3-fab212c0-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc05858-3-9d310cb3",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/cdcd6737-fa99-41ff-a28a-799dceee9d62/DSC05858-3.jpg",
+      "original": "originals/dsc05858-3-9d310cb3.jpg",
+      "originalName": "DSC05858-3.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc05858-3-9d310cb3-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc05858-3-9d310cb3-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc05858-3-9d310cb3-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc05858-3-9d310cb3-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07345-2-f9e81fb3",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/b6001031-c73e-4d2e-9818-148c214e601e/DSC07345-2.jpg",
+      "original": "originals/dsc07345-2-f9e81fb3.jpg",
+      "originalName": "DSC07345-2.jpg",
+      "width": 2500,
+      "height": 3500,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07345-2-f9e81fb3-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07345-2-f9e81fb3-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07345-2-f9e81fb3-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07345-2-f9e81fb3-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06501-ddbcc80b",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/eea5999a-ac08-4bbd-bf8e-aa489dafe27d/DSC06501.....jpg",
+      "original": "originals/dsc06501-ddbcc80b.jpg",
+      "originalName": "DSC06501.....jpg",
+      "width": 2500,
+      "height": 3853,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06501-ddbcc80b-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06501-ddbcc80b-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06501-ddbcc80b-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06501-ddbcc80b-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06632-f20d44cb",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/1788484422237-687TEJZTZ0ZDV3BEDHFN/DSC06632.jpg",
+      "original": "originals/dsc06632-f20d44cb.jpg",
+      "originalName": "DSC06632.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06632-f20d44cb-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06632-f20d44cb-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06632-f20d44cb-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06632-f20d44cb-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06939-3-1-77595662",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/10aa240b-7305-41bc-8bce-76533060d8be/DSC06939-3+%281%29.jpg",
+      "original": "originals/dsc06939-3-1-77595662.jpg",
+      "originalName": "DSC06939-3 (1).jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06939-3-1-77595662-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06939-3-1-77595662-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06939-3-1-77595662-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06939-3-1-77595662-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06529-2-fe855198",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/03c9ac3a-b52b-4a0d-9fb0-88c00ef20339/DSC06529-2.jpg",
+      "original": "originals/dsc06529-2-fe855198.jpg",
+      "originalName": "DSC06529-2.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06529-2-fe855198-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06529-2-fe855198-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06529-2-fe855198-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06529-2-fe855198-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07126-7-8c13221d",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/08e88d6b-9aca-486a-bc81-746bed0caa0d/DSC07126-7.jpg",
+      "original": "originals/dsc07126-7-8c13221d.jpg",
+      "originalName": "DSC07126-7.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07126-7-8c13221d-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07126-7-8c13221d-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07126-7-8c13221d-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07126-7-8c13221d-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06999-0496e29d",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/14d2ecbb-d6ae-47ca-a4af-d661bfe3e496/DSC06999.jpg",
+      "original": "originals/dsc06999-0496e29d.jpg",
+      "originalName": "DSC06999.jpg",
+      "width": 2500,
+      "height": 1786,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06999-0496e29d-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06999-0496e29d-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06999-0496e29d-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06999-0496e29d-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06822-2-64dda0bb",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/73aa5556-a6b3-4c0c-8368-9615495dbe62/DSC06822+%282%29.jpg",
+      "original": "originals/dsc06822-2-64dda0bb.jpg",
+      "originalName": "DSC06822 (2).jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06822-2-64dda0bb-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06822-2-64dda0bb-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06822-2-64dda0bb-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06822-2-64dda0bb-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc07049-de4727a7",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/942c42a4-83c7-4a80-ad2a-f894d936cfe5/DSC07049.jpg",
+      "original": "originals/dsc07049-de4727a7.jpg",
+      "originalName": "DSC07049.jpg",
+      "width": 2500,
+      "height": 1875,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc07049-de4727a7-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc07049-de4727a7-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc07049-de4727a7-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc07049-de4727a7-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06982-b0f4f55e",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/f5f3bc0a-3a74-4e38-a5e3-721f64f5f739/DSC06982.jpg",
+      "original": "originals/dsc06982-b0f4f55e.jpg",
+      "originalName": "DSC06982.jpg",
+      "width": 2500,
+      "height": 1667,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06982-b0f4f55e-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06982-b0f4f55e-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06982-b0f4f55e-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06982-b0f4f55e-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06410-4abb8b29",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/e1308287-d57f-4896-86ac-23aadad2fdd4/DSC06410...jpg",
+      "original": "originals/dsc06410-4abb8b29.jpg",
+      "originalName": "DSC06410...jpg",
+      "width": 2500,
+      "height": 1875,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06410-4abb8b29-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06410-4abb8b29-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06410-4abb8b29-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06410-4abb8b29-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06583-7-a96e8b62",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/862e9de8-bccc-4b47-9d04-399c183c0437/DSC06583-7...jpg",
+      "original": "originals/dsc06583-7-a96e8b62.jpg",
+      "originalName": "DSC06583-7...jpg",
+      "width": 2500,
+      "height": 1765,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06583-7-a96e8b62-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06583-7-a96e8b62-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06583-7-a96e8b62-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06583-7-a96e8b62-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06722-2-0d12d86e",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/a534a4ba-6445-48af-84bb-5171410270e2/DSC06722-2...jpg",
+      "original": "originals/dsc06722-2-0d12d86e.jpg",
+      "originalName": "DSC06722-2...jpg",
+      "width": 2500,
+      "height": 1764,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06722-2-0d12d86e-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06722-2-0d12d86e-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06722-2-0d12d86e-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06722-2-0d12d86e-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06384-2-c975096d",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/0c56dbee-0c5b-4e04-8d63-32935336fba8/DSC06384-2.jpg",
+      "original": "originals/dsc06384-2-c975096d.jpg",
+      "originalName": "DSC06384-2.jpg",
+      "width": 2500,
+      "height": 1479,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06384-2-c975096d-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06384-2-c975096d-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06384-2-c975096d-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06384-2-c975096d-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc08017-3-13955a53",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/cbf9e016-1815-4342-86b4-220ca8b573fc/DSC08017-3.jpg",
+      "original": "originals/dsc08017-3-13955a53.jpg",
+      "originalName": "DSC08017-3.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc08017-3-13955a53-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc08017-3-13955a53-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc08017-3-13955a53-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc08017-3-13955a53-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc05896-2-e19cfb05",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/2ebd42fe-65b9-4edd-9c82-11622cb06012/DSC05896-2.jpg",
+      "original": "originals/dsc05896-2-e19cfb05.jpg",
+      "originalName": "DSC05896-2.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc05896-2-e19cfb05-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc05896-2-e19cfb05-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc05896-2-e19cfb05-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc05896-2-e19cfb05-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06501-267a3412",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/70aeeaeb-1409-4f9f-b93b-ee6df9ef5bb9/DSC06501.jpg",
+      "original": "originals/dsc06501-267a3412.jpg",
+      "originalName": "DSC06501.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06501-267a3412-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06501-267a3412-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06501-267a3412-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06501-267a3412-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "img-7843-2-ab75a1ff",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/9276539a-3de6-4074-9003-e2953cb6ae3a/IMG_7843-2.jpg",
+      "original": "originals/img-7843-2-ab75a1ff.jpg",
+      "originalName": "IMG_7843-2.jpg",
+      "width": 2500,
+      "height": 3750,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/img-7843-2-ab75a1ff-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/img-7843-2-ab75a1ff-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/img-7843-2-ab75a1ff-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/img-7843-2-ab75a1ff-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06357-23f360b6",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/1a5c3f5f-1db4-4ab2-bce0-e6a9fb3aed6a/DSC06357.jpg",
+      "original": "originals/dsc06357-23f360b6.jpg",
+      "originalName": "DSC06357.jpg",
+      "width": 2500,
+      "height": 3585,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06357-23f360b6-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06357-23f360b6-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06357-23f360b6-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06357-23f360b6-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "img-7842-4-4cc5066d",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/12157a27-99ad-4f5e-910c-e80237b8dadd/IMG_7842-4.jpg",
+      "original": "originals/img-7842-4-4cc5066d.jpg",
+      "originalName": "IMG_7842-4.jpg",
+      "width": 2472,
+      "height": 3708,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/img-7842-4-4cc5066d-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/img-7842-4-4cc5066d-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/img-7842-4-4cc5066d-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/img-7842-4-4cc5066d-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06956-3-6f53d075",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/27c41389-eb57-4590-b8f2-d9210a3704fb/DSC06956-3.jpg",
+      "original": "originals/dsc06956-3-6f53d075.jpg",
+      "originalName": "DSC06956-3.jpg",
+      "width": 2500,
+      "height": 3333,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06956-3-6f53d075-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06956-3-6f53d075-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06956-3-6f53d075-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06956-3-6f53d075-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "neutral-minimalist-fashion-mini-moodboard-instagram-story-1-9f2e2a48",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/85a44dd8-36c8-4214-b5cb-2e8daabedeea/Neutral+Minimalist+Fashion+MIni+Moodboard+Instagram+Story+%281%29.png",
+      "original": "originals/neutral-minimalist-fashion-mini-moodboard-instagram-story-1-9f2e2a48.png",
+      "originalName": "Neutral Minimalist Fashion MIni Moodboard Instagram Story (1).png",
+      "width": 1620,
+      "height": 2880,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/neutral-minimalist-fashion-mini-moodboard-instagram-story-1-9f2e2a48-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/neutral-minimalist-fashion-mini-moodboard-instagram-story-1-9f2e2a48-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/neutral-minimalist-fashion-mini-moodboard-instagram-story-1-9f2e2a48-1600.webp"
+        },
+        {
+          "width": 1620,
+          "src": "/assets/images/neutral-minimalist-fashion-mini-moodboard-instagram-story-1-9f2e2a48-2400.webp"
+        }
+      ]
+    },
+    {
+      "id": "dsc06956-4-106908db",
+      "source": "https://images.squarespace-cdn.com/content/v1/6a8b2a61f9f71727bd8dd107/4e62253e-c15a-4ac6-9f2f-602da1d9ba6f/DSC06956-4.jpg",
+      "original": "originals/dsc06956-4-106908db.jpg",
+      "originalName": "DSC06956-4.jpg",
+      "width": 2500,
+      "height": 3333,
+      "variants": [
+        {
+          "width": 480,
+          "src": "/assets/images/dsc06956-4-106908db-480.webp"
+        },
+        {
+          "width": 960,
+          "src": "/assets/images/dsc06956-4-106908db-960.webp"
+        },
+        {
+          "width": 1600,
+          "src": "/assets/images/dsc06956-4-106908db-1600.webp"
+        },
+        {
+          "width": 2400,
+          "src": "/assets/images/dsc06956-4-106908db-2400.webp"
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/0517068e-11d8-4f0f-acfd-d99c163fb620/latin.woff2",
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/38a7dc28-a2d0-44eb-ab86-711b13ba36ac/latin-ext.woff2",
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/1ba1344b-823f-4737-b033-79d5ba6a65fc/latin-ext.woff2",
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/85268ede-3744-4c90-bd4b-a778ccc3ee8b/latin.woff2",
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/2f393d17-9090-44f9-80e3-e592452d0313/latin.woff2",
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/b5c55fb7-d09d-40c9-99c5-64588cabcbe9/latin-ext.woff2",
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/e17ca36e-c2d8-4c5c-8167-f9f5211b9f4b/latin.woff2",
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/adb19cad-02c4-4bd9-b9f2-366b152db569/latin-ext.woff2",
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/b1bd6c27-b024-47c5-ae23-35a97c66352e/latin-ext.woff2",
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/3a1a1667-9c86-488f-99d9-0ac1c35de47e/latin.woff2",
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/941a503e-2e63-4e35-b3ca-fda036b9a669/latin.woff2",
+    "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/b954121b-ebd0-45b7-9408-a2f0bd3dfcce/latin-ext.woff2"
+  ]
+}
